@@ -9,9 +9,9 @@ object CoffeeHouse {
 
 class CoffeeHouse extends Actor with ActorLogging {
   // when instantiated we want to log
-  log.debug("Coffehouse Open")
+  log.debug("Coffeehouse Open")
 
   override def receive: Receive = {
-    case _ => log.info("Coffee Brewing...!")
+    case _ => sender() ! ("Coffee Brewing...!")
   }
 }

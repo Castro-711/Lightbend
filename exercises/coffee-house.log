@@ -4,3 +4,15 @@ Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
 16:22:55 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffehouse Open
 16:22:55 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
 Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+17:11:19 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffehouse Open
+17:11:19 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
+Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+17:11:19 INFO  [akka://coffee-house-system/user/coffee-house] - Coffee Brewing...!
+17:12:33 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffehouse Open
+17:12:33 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
+Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+17:12:33 INFO  [akka://coffee-house-system/user/coffee-house] - Coffee Brewing...!
+17:28:38 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffehouse Open
+17:28:38 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
+Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+17:28:38 INFO  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - Coffee Brewing...!
