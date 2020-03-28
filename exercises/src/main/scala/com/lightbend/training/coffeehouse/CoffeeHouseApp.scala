@@ -40,15 +40,6 @@ class CoffeeHouseApp(system: ActorSystem) extends Terminal {
 
   private val coffeeHouse = createCoffeeHouse()
 
-  // an anonymous Actor
-  system.actorOf(Props(new Actor {
-    coffeeHouse ! "Brew Coffee"
-
-    override def receive: Receive = {
-      case msg => log.info(msg.toString)
-    }
-  }))
-
   def run(): Unit = {
     log.warning(f"{} running%nEnter "
       + Console.BLUE + "commands" + Console.RESET
@@ -80,7 +71,7 @@ class CoffeeHouseApp(system: ActorSystem) extends Terminal {
 
   protected def createGuest(count: Int, coffee: Coffee, caffeineLimit: Int): Unit = {
     (1 to count).foreach { // create count number of Guests
-      _ => coffeeHouse ! CoffeeHouse.CreateGuest // use prefix when outside CoffeeHouse file - style practice
+      _ => coffeeHouse ! CoffeeHouse.CreateGuest(coffee) // use prefix when outside CoffeeHouse file - style practice
     }
   }
 
