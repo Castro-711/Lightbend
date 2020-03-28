@@ -78,8 +78,11 @@ class CoffeeHouseApp(system: ActorSystem) extends Terminal {
         commandLoop()
     }
 
-  protected def createGuest(count: Int, coffee: Coffee, caffeineLimit: Int): Unit =
-    ()
+  protected def createGuest(count: Int, coffee: Coffee, caffeineLimit: Int): Unit = {
+    (1 to count).foreach { // create count number of Guests
+      _ => coffeeHouse ! CoffeeHouse.CreateGuest // use prefix when outside CoffeeHouse file - style practice
+    }
+  }
 
   protected def status(): Unit =
     ()

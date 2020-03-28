@@ -16,3 +16,20 @@ Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
 17:28:38 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
 Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
 17:28:38 INFO  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - Coffee Brewing...!
+18:16:25 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffeehouse Open
+18:16:25 DEBUG [akka://coffee-house-system/user/coffee-house] - started (com.lightbend.training.coffeehouse.CoffeeHouse@20688df9)
+18:16:25 DEBUG [akka://coffee-house-system/user/$a] - started (com.lightbend.training.coffeehouse.CoffeeHouseApp$$anon$1@1a906699)
+18:16:25 DEBUG [akka://coffee-house-system/user/coffee-house] - unhandled message from Actor[akka://coffee-house-system/user/$a#1169495166]: Brew Coffee
+18:16:25 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
+Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+18:16:25 INFO  [akka://coffee-house-system/user/coffee-house] - Message [java.lang.String] from Actor[akka://coffee-house-system/user/$a#1169495166] to Actor[akka://coffee-house-system/user/coffee-house#-8661277] was unhandled. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$a#-78114579]
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$b#1493149957]
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - started (com.lightbend.training.coffeehouse.Guest@596ad8b1)
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house/$b] - started (com.lightbend.training.coffeehouse.Guest@4a2492ef)
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house/$c] - started (com.lightbend.training.coffeehouse.Guest@4d0102dd)
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$c#1516364868]
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house/$d] - started (com.lightbend.training.coffeehouse.Guest@7d59b7e1)
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$d#807603809]
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$e#798135872]
+18:16:29 DEBUG [akka://coffee-house-system/user/coffee-house/$e] - started (com.lightbend.training.coffeehouse.Guest@43c6f50d)

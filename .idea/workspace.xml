@@ -24,15 +24,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="902e68bb-3e33-4d1b-9cfd-fcdbe28c7a09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.bookmark" beforeDir="false" afterPath="$PROJECT_DIR$/.bookmark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/Guest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/akka-diagnostics/Diagnostics-coffee-house-system.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/akka-diagnostics/Diagnostics-coffee-house-system.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/coffee-house.log" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/coffee-house.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/main/resources/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/src/test/resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/test/resources/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseSpec.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="56" column="52" lean-forward="true" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+            <state relative-caret-position="450">
+              <caret line="82" column="109" selection-start-line="82" selection-start-column="109" selection-end-line="82" selection-end-column="109" />
               <folding>
                 <element signature="e#144#199#0" expanded="true" />
               </folding>
@@ -58,10 +54,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercises/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/Guest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -77,9 +91,10 @@
         <option value="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala" />
         <option value="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/package.scala" />
         <option value="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala" />
-        <option value="$PROJECT_DIR$/exercises/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala" />
+        <option value="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/Guest.scala" />
         <option value="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala" />
+        <option value="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala" />
+        <option value="$PROJECT_DIR$/exercises/src/main/resources/application.conf" />
       </list>
     </option>
   </component>
@@ -279,22 +294,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8574000" />
+    <option name="totallyTimeSpent" value="9867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32908705" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32908705" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32908705" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -350,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -364,20 +371,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/srcs/akka-actor_2.13-2.6.3-sources.jar!/akka/actor/Props.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/Guest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="56" column="52" lean-forward="true" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+        <state relative-caret-position="450">
+          <caret line="82" column="109" selection-start-line="82" selection-start-column="109" selection-end-line="82" selection-end-column="109" />
           <folding>
             <element signature="e#144#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala">
+    <entry file="file://$PROJECT_DIR$/exercises/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
         </state>
       </provider>
     </entry>
