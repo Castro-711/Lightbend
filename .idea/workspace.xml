@@ -24,542 +24,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="902e68bb-3e33-4d1b-9cfd-fcdbe28c7a09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.bookmark" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.courseName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_000_initial_state.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_001_implement_actor.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_002_top_level_actor.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_003_message_actor.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_004_use_sender.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_005_create_child_actors.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_006_actor_state.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_007_use_scheduler.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_008_keep_actor_busy.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_009_stop_actor.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_010_lifecycle_monitoring.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_011_faulty_actor.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_012_custom_supervision.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_013_another_faulty_actor.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_014_self_healing.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_015_detect_bottleneck.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_016_use_router.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_017_config_dispatcher.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_018_become_stash.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cue/exercise_019_use_ask_pattern.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_akka_akka_diagnostics_2_13_1_1_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_akka_2_13_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_common_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_core_2_13_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_core_java_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_java_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_jvm_metrics_producer_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_prometheus_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_prometheus_httpserver_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_cinnamon_cinnamon_scala_2_13_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_6_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_13_2_6_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_13_2_6_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_prometheus_simpleclient_0_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_prometheus_simpleclient_common_0_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_prometheus_simpleclient_httpserver_0_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hdrhistogram_HdrHistogram_2_1_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_13_0_9_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_13_1_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_30_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/base-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sbtopts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sbtrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/components/config.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/components/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-actors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-cluster-sharding.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-cluster.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-dispatchers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-events.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-http-clients.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-http-endpoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-http-servers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-persistence.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-remote-actors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-remote-nodes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-routers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-stopwatches.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-streams-extended.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/akka-streams.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/jvm-metrics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/lagom-circuitbreakers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/play-clients.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/play-endpoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/play-servers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/dashboards/scala-futures.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/img/lightbend-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/grafana/plugins/cinnamon-prometheus-app/plugin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/linux/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/linux/prometheus/entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker/prometheus/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/default/common-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/default/common-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-common-build-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/$global/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/Coffee.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/Terminal.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/resources/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/scala/com/lightbend/training/coffeehouse/BaseAkkaSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/scala/com/lightbend/training/coffeehouse/BaseSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/scala/com/lightbend/training/coffeehouse/CoffeeSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/scala/com/lightbend/training/coffeehouse/TerminalSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Coffee$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Coffee$Akkaccino$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Coffee$CaffeScala$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Coffee$MochaPlay$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Coffee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$Command$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$Command$Guest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$Command$Guest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$Command$Quit$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$Command$Status$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$Command$Unknown$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$Command$Unknown.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal$CommandParser$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/Terminal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/package$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/classes/com/lightbend/training/coffeehouse/package.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/com.lightbend.training/common$sources/1.3.0/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/com.lightbend.training/common$sources/1.3.0/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/com.lightbend.training/common_2.13/1.3.0/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/com.lightbend.training/common_2.13/1.3.0/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/org.scala-sbt.temp/temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0/1.2.5/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/org.scala-sbt.temp/temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0/1.2.5/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common$sources-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/com.lightbend.training-common_2.13-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/test-classes/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/test-classes/com/lightbend/training/coffeehouse/BaseAkkaSpec$TestProbeOps$$anonfun$$nestedInanonfun$expectActor$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/test-classes/com/lightbend/training/coffeehouse/BaseAkkaSpec$TestProbeOps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/test-classes/com/lightbend/training/coffeehouse/BaseAkkaSpec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/test-classes/com/lightbend/training/coffeehouse/BaseSpec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/test-classes/com/lightbend/training/coffeehouse/CoffeeSpec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/scala-2.13/test-classes/com/lightbend/training/coffeehouse/TerminalSpec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/$global/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/$global/$global/definedTestNames/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/compile/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/copyResources/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/fullClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/loadedTestFrameworks/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/src/main/resources/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/src/main/resources/telemetry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/src/test/resources/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/src/test/resources/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/.history" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/classes/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/classes/com/lightbend/training/coffeehouse/CoffeeHouseApp$$anonfun$argsToOpts$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/classes/com/lightbend/training/coffeehouse/CoffeeHouseApp$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/classes/com/lightbend/training/coffeehouse/CoffeeHouseApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/classes/telemetry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/com.lightbend.training/exercises$sources/1.3.0/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/com.lightbend.training/exercises$sources/1.3.0/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/com.lightbend.training/exercises_2.13/1.3.0/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/com.lightbend.training/exercises_2.13/1.3.0/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-javaagent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises$sources-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-javaagent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/com.lightbend.training-exercises_2.13-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/test-classes/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/test-classes/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/scala-2.13/test-classes/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/$global/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/fullResolvers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/testListeners/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/$global/$global/definedTestNames/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/compile/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/copyResources/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/fullClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/loadedTestFrameworks/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/test/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/test/$global/streams/succeeded_tests" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/test-reports/TEST-com.lightbend.training.coffeehouse.CoffeeHouseAppSpec.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/target/test-reports/com.lightbend.training.coffeehouse.CoffeeHouseAppSpec.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lightbend.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/AdditionalSettings.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/CommonSettings.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/CompileOptions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Dependencies.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Man.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Navigation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/SSettings.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/ShellPrompt.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/SolutionsAndStates.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/StudentCommandsPlugin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/StudentKeys.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/Zip.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/project/target/config-classes/$27d47a1d2f782838fb7d$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/project/target/config-classes/$27d47a1d2f782838fb7d.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/project/target/config-classes/$27d47a1d2f782838fb7d.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/project/target/config-classes/$97757540f6be2c91c00c$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/project/target/config-classes/$97757540f6be2c91c00c.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/project/target/config-classes/$97757540f6be2c91c00c.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/active.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$545a0a91be6eb27b1034$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$545a0a91be6eb27b1034.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$545a0a91be6eb27b1034.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$5d88e91ac079c416e571$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$5d88e91ac079c416e571.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$5d88e91ac079c416e571.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$7e407a0f97bcdb8744d0$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$7e407a0f97bcdb8744d0.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$7e407a0f97bcdb8744d0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$c7e21669015a96db4d84$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$c7e21669015a96db4d84.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$c7e21669015a96db4d84.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/CommonSettings$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/CommonSettings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/CompileOptions$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/CompileOptions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Version$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Version.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbt/sbt.autoplugins" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/AdditionalSettings$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/AdditionalSettings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/Man$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/Man.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/Navigation$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/Navigation$FoldersOnly$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/Navigation$FoldersOnly$3$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/Navigation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/SSettings$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/SSettings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/ShellPrompt$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/ShellPrompt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/SolutionsAndStates$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/SolutionsAndStates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/StudentCommandsPlugin$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/StudentCommandsPlugin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/StudentKeys$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/StudentKeys.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/Zip$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/sbtstudent/Zip.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/las-p-lightbend-akka-for-scala-professional-v1-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/las-p-lightbend-akka-for-scala-professional-v1-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-las-p-lightbend-akka-for-scala-professional-v1-build-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resource_managed/main/sbt/sbt.autoplugins" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.lightbend.training/base$sbt_2.12/1.3.0/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.lightbend.training/base$sbt_2.12/1.3.0/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.lightbend.training/base$sources/1.3.0/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.lightbend.training/base$sources/1.3.0/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.lightbend.training/base$sources_2.12/1.3.0/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.lightbend.training/base$sources_2.12/1.3.0/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.lightbend.training/base_2.13/1.3.0/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.lightbend.training/base_2.13/1.3.0/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sbt_2.12-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sbt_2.12-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sbt_2.12-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sbt_2.12-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sbt_2.12-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources_2.12-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources_2.12-default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources_2.12-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources_2.12-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources_2.12-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base$sources_2.12-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.lightbend.training-base_2.13-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bookmark" beforeDir="false" afterPath="$PROJECT_DIR$/.bookmark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/test/resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/test/resources/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -572,11 +45,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/package.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercises/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/Coffee.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/Terminal.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -586,9 +122,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/package.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala" />
+        <option value="$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala" />
+        <option value="$PROJECT_DIR$/exercises/src/main/resources/application.conf" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="967" />
+    <option name="width" value="960" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -609,6 +156,11 @@
             <path>
               <item name="las-p-lightbend-akka-for-scala-professional-v1" type="b2602c69:ProjectViewProjectNode" />
               <item name="LAS-P-lightbend-akka-for-scala-professional-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="las-p-lightbend-akka-for-scala-professional-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAS-P-lightbend-akka-for-scala-professional-v1" type="462c0819:PsiDirectoryNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -616,6 +168,38 @@
               <item name="LAS-P-lightbend-akka-for-scala-professional-v1" type="462c0819:PsiDirectoryNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="las-p-lightbend-akka-for-scala-professional-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAS-P-lightbend-akka-for-scala-professional-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="las-p-lightbend-akka-for-scala-professional-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAS-P-lightbend-akka-for-scala-professional-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="las-p-lightbend-akka-for-scala-professional-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAS-P-lightbend-akka-for-scala-professional-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="las-p-lightbend-akka-for-scala-professional-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAS-P-lightbend-akka-for-scala-professional-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="coffeehouse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="las-p-lightbend-akka-for-scala-professional-v1" type="b2602c69:ProjectViewProjectNode" />
@@ -654,12 +238,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lightbend.training.coffeehouse" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -698,6 +293,26 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="23777686365000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1396332299" />
+        <entry key="$PROJECT_DIR$/project/AdditionalSettings.scala" value="449750973" />
+        <entry key="$PROJECT_DIR$/project/CommonSettings.scala" value="3493070795" />
+        <entry key="$PROJECT_DIR$/project/CompileOptions.scala" value="1555338004" />
+        <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="2511497521" />
+        <entry key="$PROJECT_DIR$/project/Man.scala" value="3313092721" />
+        <entry key="$PROJECT_DIR$/project/Navigation.scala" value="3124668129" />
+        <entry key="$PROJECT_DIR$/project/SSettings.scala" value="64277424" />
+        <entry key="$PROJECT_DIR$/project/ShellPrompt.scala" value="2160998725" />
+        <entry key="$PROJECT_DIR$/project/SolutionsAndStates.scala" value="272449244" />
+        <entry key="$PROJECT_DIR$/project/StudentCommandsPlugin.scala" value="2657255745" />
+        <entry key="$PROJECT_DIR$/project/StudentKeys.scala" value="442852858" />
+        <entry key="$PROJECT_DIR$/project/Zip.scala" value="3994028013" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1877196087" />
+      </map>
+    </option>
     <option name="projectSyncType">
       <map>
         <entry key="$USER_HOME$/Downloads/recfun 2" value="PREVIEW" />
@@ -714,17 +329,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140000" />
+    <option name="totallyTimeSpent" value="7481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32908705" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -759,7 +375,56 @@
     <entry file="file://$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseAppSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/Coffee.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/lightbend/training/coffeehouse/Terminal.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/test/scala/com/lightbend/training/coffeehouse/CoffeeHouseSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>

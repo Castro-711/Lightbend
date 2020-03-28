@@ -6,6 +6,20 @@ package com.lightbend.training
 
 import scala.concurrent.duration.FiniteDuration
 
+/**
+  * Package objects are a convenient container shared across an entire package
+  *
+  * They can contain arbitrary definitions, not just just variable & method defs.
+  * They are often used to hold package-wide type aliases & implicit conversions.
+  * Package objects can even inherit Scala classes & traits.
+  *
+  * By convention, it lives in a source file called package.scala.
+  * Each package is allowed to have one package object.
+  * Andy defs placed in the package object are considered members of the package itself.
+  *
+  * They are just like other objects - meaning can used inheritance for building them.
+  */
+
 package object coffeehouse {
 
   type Iterable[+A] = scala.collection.immutable.Iterable[A]
@@ -15,7 +29,7 @@ package object coffeehouse {
   type IndexedSeq[+A] = scala.collection.immutable.IndexedSeq[A]
 
   /**
-   * Keeps the CPU busy for the given appoximate duration.
+   * Keeps the CPU busy for the given approximate duration.
    */
   def busy(duration: FiniteDuration): Unit =
     pi(System.nanoTime() + duration.toNanos)
