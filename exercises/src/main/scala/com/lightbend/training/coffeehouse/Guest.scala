@@ -1,7 +1,6 @@
 package com.lightbend.training.coffeehouse
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Props, Timers}
-import com.lightbend.training.coffeehouse.Guest.CoffeeFinished
 
 import scala.concurrent.duration.FiniteDuration
 
@@ -34,10 +33,11 @@ class Guest(
   override def receive: Receive = {
     case Waiter.CoffeeServed(coffee) =>
       coffeeCount += 1
-      log.info(s"Enjoying my $coffeeCount yummy $coffee")
       // sends CoffeeFinished message to ourselves after finishCoffeeDuration
       timers.startSingleTimer(s"coffee-finished", CoffeeFinished, finishCoffeeDuration)
+      log.info(s"Enjoying my $coffeeCount yummy $coffee")
     case CoffeeFinished =>
+      log.info(s"Just finished my $coffeeCount yummy coffee")
       orderCoffee()
   }
 

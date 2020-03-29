@@ -24,7 +24,10 @@ class CoffeeHouse extends Actor with ActorLogging {
 
   private val finishCoffeeDuration: FiniteDuration =
     context.system.settings.config.getDuration("coffee-house.guest.finish-coffee-duration", TimeUnit.MILLISECONDS).millis
+  private val prepareCoffeeDuration: FiniteDuration =
+    context.system.settings.config.getDuration("coffee-house.barista.prepare-coffee-duration", TimeUnit.MILLISECONDS).millis
 
+  private val barista: ActorRef = createBarista(prepareCoffeeDuration)
   private val waiter: ActorRef = createWaiter()
 
   // use context.actorOf to create a child
@@ -32,7 +35,13 @@ class CoffeeHouse extends Actor with ActorLogging {
   protected def createGuest(favouriteCoffee: Coffee, finishCoffeeDuration: FiniteDuration): ActorRef =
     context.actorOf(Guest.props(waiter, favouriteCoffee, finishCoffeeDuration))
 
-  protected def createWaiter(): ActorRef = context.actorOf(Waiter.props(), "waiter")
+  // use system.actorOf() to create a top level actor
+  // use context.actorOf() to create a child of this actor
+  protected def createBarista(prepareCoffeeDuration: FiniteDuration): ActorRef =
+    context.actorOf(Barista.props(prepareCoffeeDuration), "barista")
+
+  protected def createWaiter(): ActorRef = context.actorOf(Waiter.props(barista), "waiter")
+
 
   override def receive: Receive = {
     case CreateGuest(favouriteCoffee: Coffee) => createGuest(favouriteCoffee, finishCoffeeDuration)
