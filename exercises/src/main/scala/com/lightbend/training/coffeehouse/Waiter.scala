@@ -7,17 +7,16 @@ object Waiter {
   case class ServeCoffee(coffee: Coffee)  // received message
   case class CoffeeServed(coffee: Coffee) // message to reply with
 
-  def props(barista: ActorRef): Props = Props(new Waiter(barista))
+  def props(coffeeHouse: ActorRef): Props = Props(new Waiter(coffeeHouse))
 }
 
-class Waiter(barista: ActorRef) extends Actor with ActorLogging {
+class Waiter(coffeeHouse: ActorRef) extends Actor with ActorLogging {
   import Waiter._
 
   override def receive: Receive = {
     case ServeCoffee(coffee) =>
       // send a prepare coffee to the Barista before serving
-      barista ! Barista.PrepareCoffee(coffee, sender())
-      sender() ! CoffeeServed(coffee)
+      coffeeHouse ! CoffeeHouse.ApproveCoffee(coffee, sender())
     case Barista.CoffeePrepared(coffee, guest) =>
       guest ! CoffeeServed(coffee)
   }

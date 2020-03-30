@@ -4,12 +4,14 @@
 
 package com.lightbend.training.coffeehouse
 
-import akka.actor.{Actor, ActorRef, ActorSystem, Props}
+import java.util.concurrent.TimeUnit
+
+import akka.actor.{ActorRef, ActorSystem}
 import akka.event.Logging
 
 import scala.annotation.tailrec
 import scala.concurrent.Await
-import scala.concurrent.duration.Duration
+import scala.concurrent.duration._
 import scala.io.StdIn
 
 object CoffeeHouseApp {
@@ -38,6 +40,8 @@ class CoffeeHouseApp(system: ActorSystem) extends Terminal {
 
   private val log = Logging(system, getClass.getName)
 
+  private val caffeineLimit = system.settings.config.getInt("coffee-house.caffeine-limit")
+
   private val coffeeHouse = createCoffeeHouse()
 
   def run(): Unit = {
@@ -51,7 +55,7 @@ class CoffeeHouseApp(system: ActorSystem) extends Terminal {
 
   protected def createCoffeeHouse(): ActorRef =
     // create top level actor
-    system.actorOf(CoffeeHouse.props(), "coffee-house")
+    system.actorOf(CoffeeHouse.props(caffeineLimit), "coffee-house")
 
   @tailrec
   private def commandLoop(): Unit =

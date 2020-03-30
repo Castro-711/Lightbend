@@ -1,5 +1,5 @@
 {
-  "start-time" : "2020-03-29T23:28:03.947",
+  "start-time" : "2020-03-30T01:02:57.540",
   "akka-version" : "2.6.3",
   "akka-diagnostics-version" : "1.1.12",
   "classpath" : "/Users/eric.cassells/Tutorials/Scala/Lightbend/Akka/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/test-classes/:/Users/eric.cassells/Tutorials/Scala/Lightbend/Akka/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/classes/:/Users/eric.cassells/Tutorials/Scala/Lightbend/Akka/LAS-P-lightbend-akka-for-scala-professional-v1/common/target/scala-2.13/classes/:/Users/eric.cassells/Tutorials/Scala/Lightbend/Akka/LAS-P-lightbend-akka-for-scala-professional-v1/common/target/scala-2.13/test-classes/:/Users/eric.cassells/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/jars/akka-actor_2.13-2.6.3.jar:/Users/eric.cassells/.ivy2/cache/com.typesafe/config/bundles/config-1.4.0.jar:/Users/eric.cassells/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/jars/scala-java8-compat_2.13-0.9.0.jar:/Users/eric.cassells/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.13/jars/akka-slf4j_2.13-2.6.3.jar:/Users/eric.cassells/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.30.jar:/Users/eric.cassells/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar:/Users/eric.cassells/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar:/Users/eric.cassells/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/bundles/scala-parser-combinators_2.13-1.1.2.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.akka/akka-diagnostics_2.13/jars/akka-diagnostics_2.13-1.1.12.jar:/Users/eric.cassells/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-akka_2.13/jars/cinnamon-akka_2.13-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-java/jars/cinnamon-java-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core-java/jars/cinnamon-core-java-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-common/jars/cinnamon-common-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-scala_2.13/jars/cinnamon-scala_2.13-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core_2.13/jars/cinnamon-core_2.13-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-jvm-metrics-producer/jars/cinnamon-jvm-metrics-producer-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus/jars/cinnamon-prometheus-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/io.prometheus/simpleclient/bundles/simpleclient-0.8.0.jar:/Users/eric.cassells/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.12.jar:/Users/eric.cassells/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus-httpserver/jars/cinnamon-prometheus-httpserver-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/io.prometheus/simpleclient_httpserver/bundles/simpleclient_httpserver-0.8.0.jar:/Users/eric.cassells/.ivy2/cache/io.prometheus/simpleclient_common/bundles/simpleclient_common-0.8.0.jar:/Users/eric.cassells/.ivy2/cache/com.typesafe.akka/akka-testkit_2.13/jars/akka-testkit_2.13-2.6.3.jar:/Users/eric.cassells/.ivy2/cache/org.scalatest/scalatest_2.13/bundles/scalatest_2.13-3.1.0.jar:/Users/eric.cassells/.ivy2/cache/org.scalatest/scalatest-compatible/bundles/scalatest-compatible-3.1.0.jar:/Users/eric.cassells/.ivy2/cache/org.scalactic/scalactic_2.13/bundles/scalactic_2.13-3.1.0.jar:/Users/eric.cassells/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.1.jar:/Users/eric.cassells/.ivy2/cache/org.scala-lang.modules/scala-xml_2.13/bundles/scala-xml_2.13-1.2.0.jar:/Users/eric.cassells/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/test-agent-1.2.8.jar:/Users/eric.cassells/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/test-interface-1.0.jar",
@@ -7,40 +7,40 @@
   "system-metrics" : {
     "heap-init" : 268435456,
     "heap-max" : 3817865216,
-    "heap-used" : 71913288,
-    "heap-committed" : 191889408,
+    "heap-used" : 45134232,
+    "heap-committed" : 256901120,
     "os-processors" : 8,
     "mem-pool-0" : {
       "name" : "Code Cache",
       "type" : "Non-heap memory",
       "init" : 2555904,
       "max" : 251658240,
-      "used" : 7752768,
-      "committed" : 7798784
+      "used" : 7053248,
+      "committed" : 7143424
     },
     "mem-pool-1" : {
       "name" : "Metaspace",
       "type" : "Non-heap memory",
       "init" : 0,
       "max" : -1,
-      "used" : 26528936,
-      "committed" : 28573696
+      "used" : 25767104,
+      "committed" : 27656192
     },
     "mem-pool-2" : {
       "name" : "Compressed Class Space",
       "type" : "Non-heap memory",
       "init" : 0,
       "max" : 1073741824,
-      "used" : 3350232,
-      "committed" : 3670016
+      "used" : 3237736,
+      "committed" : 3538944
     },
     "mem-pool-3" : {
       "name" : "PS Eden Space",
       "type" : "Heap memory",
       "init" : 67108864,
       "max" : 1409286144,
-      "used" : 63299504,
-      "committed" : 67108864
+      "used" : 36519360,
+      "committed" : 134217728
     },
     "mem-pool-4" : {
       "name" : "PS Survivor Space",
@@ -55,8 +55,8 @@
       "type" : "Heap memory",
       "init" : 179306496,
       "max" : 2863661056,
-      "used" : 8613784,
-      "committed" : 113770496
+      "used" : 8614872,
+      "committed" : 111673344
     }
   },
   "configuration" : {
@@ -111,8 +111,9 @@
         "barista" : {
             "prepare-coffee-duration" : "100 milliseconds"
         },
+        "caffeine-limit" : 5,
         "guest" : {
-            "finish-coffee-duration" : 5000
+            "finish-coffee-duration" : 2000
         }
     },
     "excluded-sensitive-paths" : [
@@ -211,7 +212,7 @@
             }
         },
         "java" : {
-            "command" : "sbt.ForkMain 55934",
+            "command" : "sbt.ForkMain 57112",
             "launcher" : "SUN_STANDARD"
         },
         "jnu" : {
