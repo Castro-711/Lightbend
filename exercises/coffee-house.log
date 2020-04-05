@@ -3245,3 +3245,265 @@ Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
 00:31:38 DEBUG [akka://coffee-house-system/user/coffee-house] - stopping
 00:31:41 DEBUG [akka://coffee-house-system/user/coffee-house/barista] - stopped
 00:31:41 DEBUG [akka://coffee-house-system/user/coffee-house] - stopped
+02:06:14 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffeehouse Open
+02:06:14 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
+Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+02:06:14 DEBUG [akka://coffee-house-system/user/coffee-house/barista] - started (com.lightbend.training.coffeehouse.Barista@7d587df9)
+02:06:14 DEBUG [akka://coffee-house-system/user/coffee-house/waiter] - started (com.lightbend.training.coffeehouse.Waiter@24db4108)
+02:06:14 DEBUG [akka://coffee-house-system/user/coffee-house] - started (com.lightbend.training.coffeehouse.CoffeeHouse@675d374a)
+02:06:14 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/barista#-442737513]
+02:06:14 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/waiter#-1999582965]
+02:06:31 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - Unknown command run!
+02:06:41 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#2060263343] added to guest book
+02:06:41 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$a#2060263343]
+02:06:41 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - started (com.lightbend.training.coffeehouse.Guest@467ca71b)
+02:06:41 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#2060263343] caffeine count incremented.
+02:06:43 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 1 yummy Akkaccino
+02:06:45 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 1 yummy coffee
+02:06:45 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#2060263343] caffeine count incremented.
+02:06:47 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 2 yummy Akkaccino
+02:06:49 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 2 yummy coffee
+02:06:49 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#2060263343] caffeine count incremented.
+02:06:51 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 3 yummy Akkaccino
+02:06:53 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 3 yummy coffee
+02:06:53 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#2060263343] caffeine count incremented.
+02:06:55 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 4 yummy Akkaccino
+02:06:57 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 4 yummy coffee
+02:06:57 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#2060263343] caffeine count incremented.
+02:06:59 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 5 yummy Akkaccino
+02:07:01 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 5 yummy coffee
+02:07:01 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$a#2060263343], but you have reached your limit
+02:07:01 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Goodbye!
+02:07:01 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - stopped
+02:08:03 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#-805209242] added to guest book
+02:08:03 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$b#-805209242]
+02:08:03 DEBUG [akka://coffee-house-system/user/coffee-house/$b] - started (com.lightbend.training.coffeehouse.Guest@51e49318)
+02:08:03 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#-805209242] caffeine count incremented.
+02:08:05 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 1 yummy Akkaccino
+02:08:06 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$c#-523365101] added to guest book
+02:08:06 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$c#-523365101]
+02:08:06 DEBUG [akka://coffee-house-system/user/coffee-house/$c] - started (com.lightbend.training.coffeehouse.Guest@6adc6c67)
+02:08:06 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$c#-523365101] caffeine count incremented.
+02:08:07 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 1 yummy coffee
+02:08:07 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#-805209242] caffeine count incremented.
+02:08:08 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$d#1289654300] added to guest book
+02:08:08 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$d#1289654300]
+02:08:08 DEBUG [akka://coffee-house-system/user/coffee-house/$d] - started (com.lightbend.training.coffeehouse.Guest@2aef478d)
+02:08:08 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$d#1289654300] caffeine count incremented.
+02:08:08 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Enjoying my 1 yummy MochaPlay
+02:08:08 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$e#1484563828] added to guest book
+02:08:08 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$e#1484563828]
+02:08:08 DEBUG [akka://coffee-house-system/user/coffee-house/$e] - started (com.lightbend.training.coffeehouse.Guest@31133b2c)
+02:08:08 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$e#1484563828] caffeine count incremented.
+02:08:10 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 2 yummy Akkaccino
+02:08:10 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Just finished my 1 yummy coffee
+02:08:10 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$c#-523365101] caffeine count incremented.
+02:08:12 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Enjoying my 1 yummy CaffeScala
+02:08:12 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 2 yummy coffee
+02:08:12 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#-805209242] caffeine count incremented.
+02:08:14 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Enjoying my 1 yummy Akkaccino
+02:08:14 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Just finished my 1 yummy coffee
+02:08:14 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$d#1289654300] caffeine count incremented.
+02:08:16 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Enjoying my 2 yummy MochaPlay
+02:08:16 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Just finished my 1 yummy coffee
+02:08:16 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$e#1484563828] caffeine count incremented.
+02:08:18 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 3 yummy Akkaccino
+02:08:18 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Just finished my 2 yummy coffee
+02:08:18 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$c#-523365101] caffeine count incremented.
+02:08:20 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Enjoying my 2 yummy CaffeScala
+02:08:20 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 3 yummy coffee
+02:08:20 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#-805209242] caffeine count incremented.
+02:08:22 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Enjoying my 2 yummy Akkaccino
+02:08:22 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Just finished my 2 yummy coffee
+02:08:22 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$d#1289654300] caffeine count incremented.
+02:08:24 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Enjoying my 3 yummy MochaPlay
+02:08:24 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Just finished my 2 yummy coffee
+02:08:24 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$e#1484563828] caffeine count incremented.
+02:08:26 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 4 yummy Akkaccino
+02:08:26 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Just finished my 3 yummy coffee
+02:08:26 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$c#-523365101] caffeine count incremented.
+02:08:28 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Enjoying my 3 yummy CaffeScala
+02:08:28 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 4 yummy coffee
+02:08:28 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#-805209242] caffeine count incremented.
+02:08:30 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Enjoying my 3 yummy Akkaccino
+02:08:30 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Just finished my 3 yummy coffee
+02:08:30 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$d#1289654300] caffeine count incremented.
+02:08:32 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Enjoying my 4 yummy MochaPlay
+02:08:32 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Just finished my 3 yummy coffee
+02:08:32 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$e#1484563828] caffeine count incremented.
+02:08:34 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 5 yummy Akkaccino
+02:08:34 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Just finished my 4 yummy coffee
+02:08:34 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$c#-523365101] caffeine count incremented.
+02:08:36 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Enjoying my 4 yummy CaffeScala
+02:08:36 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 5 yummy coffee
+02:08:36 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$b#-805209242], but you have reached your limit
+02:08:36 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Goodbye!
+02:08:36 DEBUG [akka://coffee-house-system/user/coffee-house/$b] - stopped
+02:08:38 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Enjoying my 4 yummy Akkaccino
+02:08:38 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Just finished my 4 yummy coffee
+02:08:38 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$d#1289654300] caffeine count incremented.
+02:08:40 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Enjoying my 5 yummy MochaPlay
+02:08:40 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Just finished my 4 yummy coffee
+02:08:40 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$e#1484563828] caffeine count incremented.
+02:08:42 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Enjoying my 5 yummy CaffeScala
+02:08:42 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Just finished my 5 yummy coffee
+02:08:42 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$c#-523365101], but you have reached your limit
+02:08:42 INFO  [akka://coffee-house-system/user/coffee-house/$c] - Goodbye!
+02:08:42 DEBUG [akka://coffee-house-system/user/coffee-house/$c] - stopped
+02:08:44 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Enjoying my 5 yummy Akkaccino
+02:08:44 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Just finished my 5 yummy coffee
+02:08:44 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$d#1289654300], but you have reached your limit
+02:08:44 INFO  [akka://coffee-house-system/user/coffee-house/$d] - Goodbye!
+02:08:44 DEBUG [akka://coffee-house-system/user/coffee-house/$d] - stopped
+02:08:46 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Just finished my 5 yummy coffee
+02:08:46 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$e#1484563828], but you have reached your limit
+02:08:46 INFO  [akka://coffee-house-system/user/coffee-house/$e] - Goodbye!
+02:08:46 DEBUG [akka://coffee-house-system/user/coffee-house/$e] - stopped
+20:04:50 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffeehouse Open
+20:04:50 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
+Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+20:04:50 DEBUG [akka://coffee-house-system/user/coffee-house/barista] - started (com.lightbend.training.coffeehouse.Barista@4ad8b4b0)
+20:04:50 DEBUG [akka://coffee-house-system/user/coffee-house/waiter] - started (com.lightbend.training.coffeehouse.Waiter@4592d025)
+20:04:50 DEBUG [akka://coffee-house-system/user/coffee-house] - started (com.lightbend.training.coffeehouse.CoffeeHouse@443ab53e)
+20:04:50 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/barista#-537979154]
+20:04:50 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/waiter#1658986464]
+20:07:16 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848] added to guest book
+20:07:16 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848]
+20:07:16 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - started (com.lightbend.training.coffeehouse.Guest@130de6ee)
+20:07:16 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - now watched by Actor[akka://coffee-house-system/user/coffee-house#1034783190]
+20:07:16 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848] caffeine count incremented.
+20:07:18 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 1 yummy Akkaccino
+20:07:20 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 1 yummy coffee
+20:07:20 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848] caffeine count incremented.
+20:07:22 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 2 yummy Akkaccino
+20:07:24 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 2 yummy coffee
+20:07:24 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848] caffeine count incremented.
+20:07:26 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 3 yummy Akkaccino
+20:07:28 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 3 yummy coffee
+20:07:28 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848] caffeine count incremented.
+20:07:30 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 4 yummy Akkaccino
+20:07:32 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 4 yummy coffee
+20:07:32 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848] caffeine count incremented.
+20:07:34 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 5 yummy Akkaccino
+20:07:36 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 5 yummy coffee
+20:07:36 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848], but you have reached your limit
+20:07:36 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Goodbye!
+20:07:36 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - stopped
+20:07:36 INFO  [akka://coffee-house-system/user/coffee-house] - Thanks Actor[akka://coffee-house-system/user/coffee-house/$a#1474513848], for being our guest!
+20:08:03 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715] added to guest book
+20:08:03 DEBUG [akka://coffee-house-system/user/coffee-house/$b] - started (com.lightbend.training.coffeehouse.Guest@47acba8f)
+20:08:03 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715]
+20:08:03 DEBUG [akka://coffee-house-system/user/coffee-house/$b] - now watched by Actor[akka://coffee-house-system/user/coffee-house#1034783190]
+20:08:03 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715] caffeine count incremented.
+20:08:05 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 1 yummy Akkaccino
+20:08:07 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 1 yummy coffee
+20:08:07 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715] caffeine count incremented.
+20:08:09 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 2 yummy Akkaccino
+20:08:11 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 2 yummy coffee
+20:08:11 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715] caffeine count incremented.
+20:08:13 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 3 yummy Akkaccino
+20:08:15 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 3 yummy coffee
+20:08:15 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715] caffeine count incremented.
+20:08:17 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 4 yummy Akkaccino
+20:08:19 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 4 yummy coffee
+20:08:19 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715] caffeine count incremented.
+20:08:21 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Enjoying my 5 yummy Akkaccino
+20:08:23 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Just finished my 5 yummy coffee
+20:08:23 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715], but you have reached your limit
+20:08:23 INFO  [akka://coffee-house-system/user/coffee-house/$b] - Goodbye!
+20:08:23 DEBUG [akka://coffee-house-system/user/coffee-house/$b] - stopped
+20:08:23 INFO  [akka://coffee-house-system/user/coffee-house] - Thanks Actor[akka://coffee-house-system/user/coffee-house/$b#1974654715], for being our guest!
+20:54:17 DEBUG [akka://coffee-house-system/user/coffee-house] - stopping
+20:54:17 DEBUG [akka://coffee-house-system/user/coffee-house/barista] - stopped
+20:54:17 DEBUG [akka://coffee-house-system/user/coffee-house/waiter] - stopped
+20:54:17 DEBUG [akka://coffee-house-system/user/coffee-house] - stopped
+21:06:05 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffeehouse Open
+21:06:05 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
+Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+21:06:05 DEBUG [akka://coffee-house-system/user/coffee-house/barista] - started (com.lightbend.training.coffeehouse.Barista@747eb0af)
+21:06:05 DEBUG [akka://coffee-house-system/user/coffee-house/waiter] - started (com.lightbend.training.coffeehouse.Waiter@6f5dcaa8)
+21:06:05 DEBUG [akka://coffee-house-system/user/coffee-house] - started (com.lightbend.training.coffeehouse.CoffeeHouse@31ccb228)
+21:06:05 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/barista#994160153]
+21:06:05 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/waiter#991084091]
+21:07:41 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648] added to guest book
+21:07:41 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648]
+21:07:41 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - started (com.lightbend.training.coffeehouse.Guest@60f38f1b)
+21:07:41 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - now watched by Actor[akka://coffee-house-system/user/coffee-house#893967124]
+21:07:41 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648] caffeine count incremented.
+21:07:43 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 1 yummy Akkaccino
+21:07:45 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 1 yummy coffee
+21:07:45 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648] caffeine count incremented.
+21:07:47 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 2 yummy Akkaccino
+21:07:49 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 2 yummy coffee
+21:07:49 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648] caffeine count incremented.
+21:07:51 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 3 yummy Akkaccino
+21:07:53 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 3 yummy coffee
+21:07:53 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648] caffeine count incremented.
+21:07:55 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 4 yummy Akkaccino
+21:07:57 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 4 yummy coffee
+21:07:57 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648] caffeine count incremented.
+21:07:59 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 5 yummy Akkaccino
+21:08:01 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 5 yummy coffee
+21:08:01 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648], but you have reached your limit
+21:08:01 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Goodbye!
+21:08:01 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - stopped
+21:08:01 INFO  [akka://coffee-house-system/user/coffee-house] - Thanks Actor[akka://coffee-house-system/user/coffee-house/$a#1269059648], for being our guest!
+21:11:47 DEBUG [akka://coffee-house-system/user/coffee-house] - stopping
+21:11:47 DEBUG [akka://coffee-house-system/user/coffee-house/waiter] - stopped
+21:11:47 DEBUG [akka://coffee-house-system/user/coffee-house/barista] - stopped
+21:11:47 DEBUG [akka://coffee-house-system/user/coffee-house] - stopped
+21:11:59 DEBUG [akka://coffee-house-system/user/coffee-house] - Coffeehouse Open
+21:11:59 WARN  [com.lightbend.training.coffeehouse.CoffeeHouseApp(akka://coffee-house-system)] - CoffeeHouseApp running
+Enter [34mcommands[0m into the terminal: [34m[e.g. `q` or `quit`][0m
+21:11:59 DEBUG [akka://coffee-house-system/user/coffee-house/barista] - started (com.lightbend.training.coffeehouse.Barista@70bd4c61)
+21:11:59 DEBUG [akka://coffee-house-system/user/coffee-house/waiter] - started (com.lightbend.training.coffeehouse.Waiter@440a97e)
+21:11:59 DEBUG [akka://coffee-house-system/user/coffee-house] - started (com.lightbend.training.coffeehouse.CoffeeHouse@499b0a05)
+21:11:59 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/barista#-1163844038]
+21:11:59 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/waiter#-272966192]
+21:12:13 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510] added to guest book
+21:12:13 DEBUG [akka://coffee-house-system/user/coffee-house] - now supervising Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510]
+21:12:13 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - started (com.lightbend.training.coffeehouse.Guest@49cbedc1)
+21:12:13 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - now watched by Actor[akka://coffee-house-system/user/coffee-house#514599871]
+21:12:13 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510] caffeine count incremented.
+21:12:15 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 1 yummy Akkaccino
+21:12:17 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 1 yummy coffee
+21:12:17 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510] caffeine count incremented.
+21:12:19 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 2 yummy Akkaccino
+21:12:21 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 2 yummy coffee
+21:12:21 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510] caffeine count incremented.
+21:12:23 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 3 yummy Akkaccino
+21:12:25 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 3 yummy coffee
+21:12:25 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510] caffeine count incremented.
+21:12:27 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 4 yummy Akkaccino
+21:12:29 ERROR [akka://coffee-house-system/user/coffee-house/$a] - null
+com.lightbend.training.coffeehouse.Guest$CaffeineException$: null
+	at com.lightbend.training.coffeehouse.Guest$CaffeineException$.<clinit>(Guest.scala:9)
+	at com.lightbend.training.coffeehouse.Guest$$anonfun$receive$1.applyOrElse(Guest.scala:43)
+	at akka.actor.Actor.aroundReceive(Actor.scala:534)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:532)
+	at com.lightbend.training.coffeehouse.Guest.akka$actor$Timers$$super$aroundReceive(Guest.scala:20)
+	at akka.actor.Timers.aroundReceive(Timers.scala:51)
+	at akka.actor.Timers.aroundReceive$(Timers.scala:40)
+	at com.lightbend.training.coffeehouse.Guest.aroundReceive(Guest.scala:20)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:573)
+	at akka.actor.ActorCell.invoke$$original(ActorCell.scala:543)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:61)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:269)
+	at akka.dispatch.Mailbox.run$$original(Mailbox.scala:230)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:32)
+	at cinnamon.akka.DispatcherInstruments$RecordingRunnable.run(DispatcherInstruments.scala:143)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:47)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+21:12:29 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - restarting
+21:12:29 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Goodbye!
+21:12:29 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - restarted
+21:12:29 INFO  [akka://coffee-house-system/user/coffee-house] - Guest Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510] caffeine count incremented.
+21:12:31 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Enjoying my 1 yummy Akkaccino
+21:12:33 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Just finished my 1 yummy coffee
+21:12:33 INFO  [akka://coffee-house-system/user/coffee-house] - Sorry, Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510], but you have reached your limit
+21:12:33 INFO  [akka://coffee-house-system/user/coffee-house/$a] - Goodbye!
+21:12:33 INFO  [akka://coffee-house-system/user/coffee-house] - Thanks Actor[akka://coffee-house-system/user/coffee-house/$a#-1746927510], for being our guest!
+21:12:33 DEBUG [akka://coffee-house-system/user/coffee-house/$a] - stopped

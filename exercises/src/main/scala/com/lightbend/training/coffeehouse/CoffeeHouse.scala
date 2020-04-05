@@ -2,8 +2,7 @@ package com.lightbend.training.coffeehouse
 
 import java.util.concurrent.TimeUnit
 
-import akka.actor.{Actor, ActorLogging, ActorRef, Props}
-import com.lightbend.training.coffeehouse.Barista.PrepareCoffee
+import akka.actor.{Actor, ActorLogging, ActorRef, Props, Terminated}
 
 import scala.collection.mutable.Map
 import scala.concurrent.duration._
@@ -12,7 +11,7 @@ import scala.concurrent.duration._
 object CoffeeHouse {
   // message protocol for CoffeeHouse
   // message protocol contains messages you can send to the CoffeeHouse
-  case class CreateGuest(favouriteCoffee: Coffee)
+  case class CreateGuest(favouriteCoffee: Coffee, caffeineLimit: Int)
   case class ApproveCoffee(coffee: Coffee, guest: ActorRef)
 
   // creating a props factory
@@ -37,8 +36,8 @@ class CoffeeHouse(caffeineLimit: Int) extends Actor with ActorLogging {
 
   // use context.actorOf to create a child
   // protected members can be accessed only by sub classes in the same package
-  protected def createGuest(favouriteCoffee: Coffee): ActorRef = {
-    context.actorOf(Guest.props(waiter, favouriteCoffee, finishCoffeeDuration))
+  protected def createGuest(favouriteCoffee: Coffee, guestCaffeineLimit: Int): ActorRef = {
+    context.actorOf(Guest.props(waiter, favouriteCoffee, finishCoffeeDuration, guestCaffeineLimit))
   }
 
   // use system.actorOf() to create a top level actor
@@ -48,19 +47,21 @@ class CoffeeHouse(caffeineLimit: Int) extends Actor with ActorLogging {
 
   protected def createWaiter(): ActorRef = context.actorOf(Waiter.props(self), "waiter")
 
-
   override def receive: Receive = {
-    case CreateGuest(favouriteCoffee: Coffee) =>
-      val guest = createGuest(favouriteCoffee)
+    case CreateGuest(favouriteCoffee: Coffee, guestCaffeineLimit: Int) =>
+      val guest = createGuest(favouriteCoffee, guestCaffeineLimit)
+      context.watch(guest) // DeathWatch for the guest - always handle terminated messages to avoid DeathPactException
       guestBook += guest -> 0
       log.info(s"Guest $guest added to guest book")
     case ApproveCoffee(coffee: Coffee, guest: ActorRef) if guestBook(guest) < caffeineLimit =>
-        guestBook += guest -> (guestBook(guest) + 1)
-        log.info(s"Guest $guest caffeine count incremented.")
-        barista.forward(Barista.PrepareCoffee(coffee, guest))
+      guestBook += guest -> (guestBook(guest) + 1)
+      log.info(s"Guest $guest caffeine count incremented.")
+      barista.forward(Barista.PrepareCoffee(coffee, guest))
     case ApproveCoffee(coffee: Coffee, guest: ActorRef) =>
-        log.info(s"Sorry, $guest, but you have reached your limit")
-        context.stop(guest)
-
+      log.info(s"Sorry, $guest, but you have reached your limit")
+      context.stop(guest)
+    case Terminated(guest: ActorRef) =>
+      log.info(s"Thanks $guest, for being our guest!")
+      guestBook -= guest
   }
 }

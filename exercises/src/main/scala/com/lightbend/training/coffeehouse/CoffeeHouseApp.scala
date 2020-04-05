@@ -4,8 +4,6 @@
 
 package com.lightbend.training.coffeehouse
 
-import java.util.concurrent.TimeUnit
-
 import akka.actor.{ActorRef, ActorSystem}
 import akka.event.Logging
 
@@ -13,6 +11,7 @@ import scala.annotation.tailrec
 import scala.concurrent.Await
 import scala.concurrent.duration._
 import scala.io.StdIn
+import scala.util.Random
 
 object CoffeeHouseApp {
 
@@ -28,6 +27,7 @@ object CoffeeHouseApp {
     coffeeHouseApp.run()
   }
 
+  // object private scope
   private[coffeehouse] def argsToOpts(args: Seq[String]): Map[String, String] =
     args.collect { case opt(key, value) => key -> value }.to(Map)
 
@@ -75,7 +75,7 @@ class CoffeeHouseApp(system: ActorSystem) extends Terminal {
 
   protected def createGuest(count: Int, coffee: Coffee, caffeineLimit: Int): Unit = {
     (1 to count).foreach { // create count number of Guests
-      _ => coffeeHouse ! CoffeeHouse.CreateGuest(coffee) // use prefix when outside CoffeeHouse file - style practice
+      _ => coffeeHouse ! CoffeeHouse.CreateGuest(coffee, caffeineLimit) // use prefix when outside CoffeeHouse file - style practice
     }
   }
 
