@@ -2,7 +2,7 @@ package com.lightbend.training.coffeehouse
 
 import java.util.concurrent.TimeUnit
 
-import akka.actor.{Actor, ActorLogging, ActorRef, Props, Terminated}
+import akka.actor.{Actor, ActorLogging, ActorRef, OneForOneStrategy, Props, SupervisorStrategy, Terminated}
 
 import scala.collection.mutable.Map
 import scala.concurrent.duration._
@@ -33,6 +33,18 @@ class CoffeeHouse(caffeineLimit: Int) extends Actor with ActorLogging {
   private val waiter: ActorRef = createWaiter()
 
   private var guestBook: Map[ActorRef, Int] = Map.empty.withDefaultValue(0)
+
+  override def supervisorStrategy: SupervisorStrategy = {
+    val decider: SupervisorStrategy.Decider = {
+      case Guest.CaffeineException => SupervisorStrategy.Stop
+    }
+
+    // we don't want this to apply to all guest
+    // just to the guest that indicated they have a problem
+    // if it is a caffeineException we will apply our decider
+    // else we will apply our parent decider
+    OneForOneStrategy()(decider.orElse(super.supervisorStrategy.decider))
+  }
 
   // use context.actorOf to create a child
   // protected members can be accessed only by sub classes in the same package
